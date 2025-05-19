@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.23")
+    implementation("io.github.classgraph:classgraph:4.8.173")
 }
 
 tasks.test {
