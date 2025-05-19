@@ -40,15 +40,6 @@ object HandlerRegistry {
                     .filterNotNull()
             }
 
-
-    /** Recorre recursivamente si hay más niveles sealed. */
-    private fun <T : Any> collectSubclasses(root: KClass<T>): List<KClass<out T>> =
-        buildList {
-            add(root)
-            if (root.isSealed)
-                root.sealedSubclasses.forEach { addAll(collectSubclasses(it)) }
-        }.filterNot { it == root }       // quitamos la propia raíz
-
     /** Instancia sólo si hay ctor sin parámetros. */
     private fun <T : Any> KClass<T>.safeNew(): T? =
         takeIf { constructors.singleOrNull()?.parameters?.isEmpty() == true }
