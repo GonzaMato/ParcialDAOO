@@ -10,12 +10,24 @@ enum class State {
     PENDING
 }
 
-class Projects(
+class Project(
     private val employeeList : List<Employee>,
     private val deadlines : List<Date>,
     private val state : State
 ) : Visitable{
     override fun accept(v: Visitor) {
-        v.visitProjects()
+        v.visitProjects(this)
+    }
+
+    fun getEmployeeList(): List<Employee> {
+        return employeeList
+    }
+
+    fun getDeadlines(): List<Date> {
+        return deadlines
+    }
+
+    fun getState(): State {
+        return state
     }
 }

@@ -1,4 +1,6 @@
 package org.example.Visitor.statistics
 
-class Statistics {
-}
+data class Statistics(
+    var totalHours: Double,
+    var salariesPaid : Double
+)

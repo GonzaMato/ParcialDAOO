@@ -1,4 +1,5 @@
 package org.example
 
-class Notification {
+interface Notification {
+fun sendNotification(message: String) : Message
 }
