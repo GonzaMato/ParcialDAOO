@@ -1,4 +1,4 @@
-package org.example.events
+package org.errors.events
 
 sealed abstract class Event() {
 }

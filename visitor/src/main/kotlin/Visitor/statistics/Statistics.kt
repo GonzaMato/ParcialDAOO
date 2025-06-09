@@ -1,4 +1,4 @@
-package org.example.Visitor.statistics
+package org.errors.Visitor.statistics
 
 data class Statistics(
     var totalHours: Double,

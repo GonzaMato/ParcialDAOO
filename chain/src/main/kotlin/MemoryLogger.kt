@@ -1,4 +1,4 @@
-package org.example
+package org.errors
 
 class MemoryLogger(
     private var log : String = ""

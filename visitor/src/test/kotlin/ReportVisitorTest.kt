@@ -1,8 +1,8 @@
-import org.example.Visitor.ReportVisitor
-import org.example.models.Departments
-import org.example.models.Employee
-import org.example.models.Project
-import org.example.models.State
+import org.errors.Visitor.ReportVisitor
+import org.errors.models.Departments
+import org.errors.models.Employee
+import org.errors.models.Project
+import org.errors.models.State
 import org.junit.jupiter.api.Test
 import java.util.*
 import kotlin.test.assertEquals

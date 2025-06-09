@@ -1,8 +1,8 @@
-package org.example.Visitor
+package org.errors.Visitor
 
-import org.example.models.Departments
-import org.example.models.Employee
-import org.example.models.Project
+import org.errors.models.Departments
+import org.errors.models.Employee
+import org.errors.models.Project
 
 interface Visitor {
     fun visitEmployee(employee: Employee)

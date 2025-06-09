@@ -1,8 +1,8 @@
-package org.example
+package org.errors
 
-import org.example.eventHandler.HandlerRegistry
-import org.example.events.Payment
-import org.example.models.PayMethod
+import org.errors.eventHandler.HandlerRegistry
+import org.errors.events.Payment
+import org.errors.models.PayMethod
 
 
 fun main() {

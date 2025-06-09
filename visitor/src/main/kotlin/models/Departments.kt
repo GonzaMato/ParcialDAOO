@@ -1,6 +1,6 @@
-package org.example.models
+package org.errors.models
 
-import org.example.Visitor.Visitor
+import org.errors.Visitor.Visitor
 
 class Departments(
     private val employeeList : List<Employee>,

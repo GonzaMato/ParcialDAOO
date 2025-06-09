@@ -1,9 +1,9 @@
-import org.example.MemoryLogger
-import org.example.eventHandler.ReceivedPayHandler
-import org.example.events.NewOrder
-import org.example.events.Payment
-import org.example.models.PayMethod
-import org.example.models.Product
+import org.errors.MemoryLogger
+import org.errors.eventHandler.ReceivedPayHandler
+import org.errors.events.NewOrder
+import org.errors.events.Payment
+import org.errors.models.PayMethod
+import org.errors.models.Product
 import org.junit.jupiter.api.Test
 import java.util.*
 import kotlin.test.assertEquals

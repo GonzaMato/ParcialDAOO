@@ -1,7 +1,7 @@
-package org.example.events
+package org.errors.events
 
-import org.example.models.PayMethod
-import org.example.models.Product
+import org.errors.models.PayMethod
+import org.errors.models.Product
 
 class NewOrder(
     private val clientId : Long,

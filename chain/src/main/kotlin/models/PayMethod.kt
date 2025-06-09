@@ -1,4 +1,4 @@
-package org.example.models
+package org.errors.models
 
 enum class PayMethod {
     CREDIT,

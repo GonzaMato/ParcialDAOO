@@ -1,9 +1,9 @@
-package org.example.eventHandler
+package org.errors.eventHandler
 
-import org.example.ConsoleLogger
-import org.example.Logger
-import org.example.events.DeliveryProblem
-import org.example.events.Event
+import org.errors.ConsoleLogger
+import org.errors.Logger
+import org.errors.events.DeliveryProblem
+import org.errors.events.Event
 
 object DeliveryProblemHandler : Handler(){
     var logger : Logger = ConsoleLogger()

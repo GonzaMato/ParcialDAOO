@@ -1,6 +1,6 @@
-package org.example.eventHandler
+package org.errors.eventHandler
 
-import org.example.events.Event
+import org.errors.events.Event
 
 sealed class Handler(private var next : Handler? = null) {
     fun setNextHandler(handler: Handler) : Handler {

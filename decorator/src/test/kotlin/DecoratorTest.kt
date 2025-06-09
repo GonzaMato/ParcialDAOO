@@ -1,7 +1,7 @@
-import org.example.BaseNotification
-import org.example.decorators.DataCompressionNotification
-import org.example.decorators.EncryptNotification
-import org.example.decorators.EventRegistryNotification
+import org.errors.BaseNotification
+import org.errors.decorators.DataCompressionNotification
+import org.errors.decorators.EncryptNotification
+import org.errors.decorators.EventRegistryNotification
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

@@ -1,4 +1,4 @@
-package org.example
+package org.errors
 
 class BaseNotification() : Notification {
     override fun sendNotification(message: String) : Message{

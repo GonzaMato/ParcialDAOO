@@ -1,6 +1,6 @@
-import org.example.BaseNotification
-import org.example.Notification
-import org.example.decorators.EncryptNotification
+import org.errors.BaseNotification
+import org.errors.Notification
+import org.errors.decorators.EncryptNotification
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

@@ -1,4 +1,4 @@
-package org.example
+package org.errors
 
 class Message(
     private val title: String,

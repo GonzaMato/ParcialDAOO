@@ -1,6 +1,6 @@
-package org.example.events
+package org.errors.events
 
-import org.example.models.PayMethod
+import org.errors.models.PayMethod
 import java.util.Date
 
 class Payment(

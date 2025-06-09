@@ -1,9 +1,9 @@
-import org.example.eventHandler.HandlerRegistry
-import org.example.events.DeliveryProblem
-import org.example.events.NewOrder
-import org.example.events.Payment
-import org.example.models.PayMethod
-import org.example.models.Product
+import org.errors.eventHandler.HandlerRegistry
+import org.errors.events.DeliveryProblem
+import org.errors.events.NewOrder
+import org.errors.events.Payment
+import org.errors.models.PayMethod
+import org.errors.models.Product
 import org.junit.jupiter.api.Test
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream

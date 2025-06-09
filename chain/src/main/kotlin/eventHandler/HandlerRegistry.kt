@@ -1,7 +1,7 @@
-package org.example.eventHandler
+package org.errors.eventHandler
 
 import io.github.classgraph.ClassGraph
-import org.example.events.Event
+import org.errors.events.Event
 import kotlin.reflect.KClass
 import kotlin.reflect.full.createInstance
 

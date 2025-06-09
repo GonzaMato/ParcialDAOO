@@ -1,5 +1,5 @@
-import org.example.BaseNotification
-import org.example.Notification
+import org.errors.BaseNotification
+import org.errors.Notification
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

@@ -1,7 +1,7 @@
-package org.example.decorators
+package org.errors.decorators
 
-import org.example.Message
-import org.example.Notification
+import org.errors.Message
+import org.errors.Notification
 
 class EventRegistryNotification(notification: Notification) : NotificationDecorator(notification) {
 

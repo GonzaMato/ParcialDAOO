@@ -1,4 +1,4 @@
-package org.example.events
+package org.errors.events
 
 class DeliveryProblem(
     private val deliveryID : Long,

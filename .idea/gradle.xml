@@ -5,12 +5,17 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-8.7-bin/gradle-8.7" />
+        <option name="gradleJvm" value="21" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ErrorSimulator" />
+            <option value="$PROJECT_DIR$/SeparateTest" />
+            <option value="$PROJECT_DIR$/callstacktracer" />
             <option value="$PROJECT_DIR$/chain" />
             <option value="$PROJECT_DIR$/decorator" />
+            <option value="$PROJECT_DIR$/errorsimultaor" />
+            <option value="$PROJECT_DIR$/testcasetime" />
             <option value="$PROJECT_DIR$/visitor" />
           </set>
         </option>
